@@ -4,21 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="112dp" />
+    tools:context=".SegundaActividad">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="com.example.a7gaia_1ariketa.fragments.AlumnListFragment"
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.a7gaia_1ariketa.fragments.AlumnInfoFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="425dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

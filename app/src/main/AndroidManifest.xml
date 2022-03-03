@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7Gaia_1Ariketa">
         <activity
+            android:name=".SegundaActividad"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
